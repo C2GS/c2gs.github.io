@@ -1,6 +1,7 @@
 //C2GS Site By Adam Gincel
 //To add more gifs to the front page rotation, just add to this array. ["gfycat.com/ifr/namenamename", "game name"],
 var myGfys = [
+	["https://gfycat.com/ifr/ViciousFairBlackrhino", "Rock Band 3"],
 	["https://gfycat.com/ifr/TepidSkeletalIlsamochadegu", "Super Smash Bros. Melee"],
 	["https://gfycat.com/ifr/RegalAthleticBluebreastedkookaburra", "Super Smash Bros. for Wii U"],
 ];
