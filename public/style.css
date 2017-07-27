@@ -1,0 +1,335 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-image: url("../img/bg.png");
+	background-repeat: repeat;
+}
+
+main {
+	display: block;
+
+	width: 60%;
+	margin: auto;
+	background-color: #dcdcdc;
+
+	text-align: center;
+	color: black;
+
+	font-size: 22px;
+	font-family: "carlito", sans-serif;
+
+	padding-top: 8px;
+	padding-bottom: 16px;
+
+	margin-bottom: 30px;
+}
+
+main h1 {
+	margin-bottom: 0px;
+}
+
+main button {
+	background-color: gray;
+	font-family: "carlito", sans-serif;
+	box-shadow: none;
+	border: none;
+	border-radius: 5px;
+
+	width: auto;
+	height: auto;
+	color: white;
+
+	font-size: 20px;
+	padding: 15px;
+}
+
+main p {
+	padding: 12px;
+	font-size: 18px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main ul {
+	text-align: center;
+	font-size: 18px;
+	width: 100%;
+}
+
+main ul li {
+	margin-bottom: 8px;
+}
+
+nav {
+	width: 60%;
+	margin: auto;
+	color: black;
+
+	font-size: 26px;
+	font-family: "carlito", sans-serif;
+
+	text-align: center;
+	display: block;
+	margin-bottom: 4px;
+}
+
+.navHolder {
+	width: 100%;
+	display: block;
+}
+
+#gifTitle {
+	font-style: italic;
+	padding-bottom: 8px;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.indicator {
+	height: 12px;
+	width: 12px;
+	border: 1px solid gray;
+	border-radius: 2em;
+	display: inline-block;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.active {
+	background-color: white;
+}
+
+nav ul {
+	list-style: none;
+	display: inline;
+}
+
+nav ul li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav ul li a {
+	color: greenyellow;
+	text-decoration: none;
+}
+
+#logoContainer {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.logo {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.left {
+	text-align: left;
+	padding-left: 28px;
+}
+
+
+main a {
+	color: skyblue;
+}
+
+.date {
+	font-style: italic;
+	font-size: 14px;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 10px;
+
+}
+
+
+.game {
+	border: 1px white solid;
+	width: 60% !important;
+	display: inline-block;
+	background-color: #bbb;
+	color: black;
+	text-align: left;
+
+	height: auto;
+
+	padding-bottom: 10px;
+	border-radius: 5px;
+}
+
+.game section {
+	float: left;
+	width: 65%;
+	border-left: 1px lightgray solid;
+	padding-left: 20px;
+	height: 100%;
+	padding-right: 4%;
+}
+
+.game img {
+	height: auto;
+	width: 24%;
+
+	max-height: 90%;
+	float: left;
+	margin: 10px;
+}
+
+.game h1 {
+	font-size: 26px;
+}
+
+.game p {
+	font-family: "carlito", sans-serif;
+	padding: 0;
+	font-size: 14px;
+}
+
+.game p a {
+	font-size: 15px;
+}
+
+.game a {
+	color: indianred;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 1750px) {
+	nav {
+		width: 75% !important;
+		font-size: 30px;
+	}
+
+	.navHolder {
+		/*padding-top: 5.5%;*/
+	}
+
+	main {
+		width: 75% !important;
+	}
+
+}
+
+@media only screen and (max-width: 1550px) {
+	nav {
+		width: 95% !important;
+		font-size: 34px;
+	}
+
+	.navHolder {
+		/*padding-top: 4.5%;*/
+	}
+
+	main {
+		width: 95% !important;
+	}
+
+	.game {
+		width: 65% !important;
+	}
+
+	.game section {
+		width: 60%;
+		padding-right: 10%;
+	}
+}
+
+@media only screen and (max-width: 1165px) {
+	nav {
+		width: 100%;
+		height: auto;
+		text-align: center;
+
+		font-size: 34px;
+		padding-bottom: 14px;
+	}
+
+	nav ul {
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+
+
+	nav ul li{
+		display: block;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.logo {
+		width: 100%;
+		height: auto;
+	}
+
+	.navHolder {
+		width: 100%;
+		display: inline-block;
+		padding-top: 1%;
+		padding-bottom: 1%;
+
+	}
+
+	.game {
+		width: 90% !important;
+		height: auto;
+	}
+
+	.game section {
+		width: 50%;
+		height: 100%;
+	}
+
+	.game img {
+		width: 30%;
+		height: auto;
+		padding-top: 10px;
+	}
+
+	#gfy {
+		width: 75%;
+		height: auto;
+	}
+
+	main ul {
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.game {
+		text-align: center;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+
+	.game img {
+		display: inline-block;
+		height: 128px;
+		width: auto;
+	}
+
+	.imagewrapper {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.game section {
+		width: 100%;
+		padding-left: 0px;
+		border: none;
+	}
+
+	.left {
+		padding-left: 4px;
+	}
+}
